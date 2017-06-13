@@ -1,5 +1,9 @@
 function diff_svm(mthd)
 %%
+% diff_svm(mthd)
+% mthd= 'spk' or 'lfp'
+% run after execute amysvm_lfp or amysvm_spk
+%%
 folderlist={
     'I:\160712';
     'I:\160713';
