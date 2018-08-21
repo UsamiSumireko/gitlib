@@ -1,0 +1,33 @@
+# Li ZhhColorSchemeForMATLAB - MATLAB color scheme
+# Generated with schemer_export v1.4.0, on MATLAB 9.0.0.341360 (R2016a)
+# Wed Sep 27 17:01:32 CST 2017
+# To enable this color scheme in MATLAB use schemer_import, available at:
+#     https://github.com/scottclowe/matlab-schemer
+#     https://www.mathworks.com/matlabcentral/fileexchange/53862-matlab-schemer
+ColorsUseSystem=Bfalse
+ColorsUseMLintAutoFixBackground=Btrue
+Editor.VariableHighlighting.Automatic=Btrue
+Editor.NonlocalVariableHighlighting=Bfalse
+EditorCodepadHighVisible=Bfalse
+EditorCodeBlockDividers=Btrue
+Editorhighlight-caret-row-boolean=Btrue
+EditorRightTextLineVisible=Btrue
+EditorRightTextLimitLineWidth=I4
+ColorsText=C-460558
+ColorsBackground=C-16777216
+Colors_M_Keywords=C-16711681
+Colors_M_Comments=C-16744704
+Colors_M_Strings=C-6750004
+Colors_M_UnterminatedStrings=C-202417
+Colors_M_SystemCommands=C-16725605
+Colors_M_Errors=C-53398
+Colors_HTML_HTMLLinks=C-6385153
+Colors_M_Warnings=C-26368
+ColorsMLintAutoFixBackground=C-11513776
+Editor.VariableHighlighting.Color=C-16776961
+Editor.NonlocalVariableHighlighting.TextColor=C-16776961
+Editorhighlight-lines=C-15132391
+Editorhighlight-caret-row-boolean-color=C-12632257
+EditorRightTextLimitLineColor=C-13948117
+Color_CmdWinWarnings=C-26368
+Color_CmdWinErrors=C-65536

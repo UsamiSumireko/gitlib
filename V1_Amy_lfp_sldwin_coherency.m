@@ -128,8 +128,8 @@ if shuffleL
     Nshuffle=20;
     randtim=1:Nshuffle;
     randidx=arrayfun(@(x) randperm(30),randtim,'UniformOutput',false);
-    [c1c,phi1c,~,~,~,f1c,~,~,cerr1c]=cellfun(@(x) cohgramc(amy(:,conidx),v1(:,x),params),randidx,'UniformOutput',false);
-    [c2c,phi2c,~,~,~,f2c,~,~,cerr2c]=cellfun(@(x) cohgramc(amy(:,neuidx),v1(:,neuidx(x)),params),randidx,'UniformOutput',false);
+    [c1c,phi1c,~,~,~,f1c,~,~,cerr1c]=cellfun(@(x) cohgramc(amy(:,conidx),v1(:,x),[0.2 0.01],params),randidx,'UniformOutput',false);
+    [c2c,phi2c,~,~,~,f2c,~,~,cerr2c]=cellfun(@(x) cohgramc(amy(:,neuidx),v1(:,neuidx(x)),[0.2 0.01],params),randidx,'UniformOutput',false);
     c1=mean(cell2mat(reshape(c1c,1,1,1,[])),2);
     phi1=mean(cell2mat(reshape(phi1c,1,1,1,[])),2);
     cerr1=mean(cell2mat(reshape(cerr1c,1,1,1,[])),2);
